@@ -34,14 +34,12 @@ Just DOM manipulation, event handling, and JavaScript logic — simple and power
 - Event listeners handle user input and state changes (score, question index, etc.).
 - UI transitions between Start, Quiz, and Completion screens.
 
-
-````markdown
 ## 🔧 How to Run
 
 1. Clone this repo:
    ```bash
    git clone https://github.com/crnjihia/JavaScript-Quiz-App.git
-````
+
 
 2. Open `index.html` in your browser.
 
@@ -57,10 +55,6 @@ No setup or build steps required — just open and play!
 ├── screenshot.png
 └── README.md
 ```
-
-## 🎨 Favicon
-
-A custom inline SVG favicon (JS logo with a yellow background) has been added for a personalized tab icon.
 
 ## 🔗 Live Demo
 
