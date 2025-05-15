@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Quiz App</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -18,7 +17,13 @@
             <div class="progress-bar" id="progress"></div>
         </div>
         <div class="quiz-body">
-            <div id="question-container">
+            <div id="start-container" class="start-screen">
+                <h2>Test Your JavaScript Knowledge</h2>
+                <p>This quiz contains 10 questions about JavaScript fundamentals, syntax, and common techniques. Ready
+                    to test your skills?</p>
+                <button class="btn" id="start-btn">Start Quiz</button>
+            </div>
+            <div id="question-container" style="display: none;">
                 <div class="question" id="question"></div>
                 <div class="options" id="options"></div>
                 <div class="feedback" id="feedback"></div>
@@ -26,16 +31,18 @@
             <div class="quiz-complete" id="complete-container">
                 <h2>Quiz Complete!</h2>
                 <p id="final-score"></p>
+                <p id="performance-message"></p>
                 <button class="btn" id="restart-btn">Restart Quiz</button>
             </div>
         </div>
-        <div class="quiz-footer">
+        <div class="quiz-footer" id="quiz-footer">
             <div class="score">Score: <span id="score">0</span></div>
             <button class="btn" id="next-btn" disabled>Next Question</button>
         </div>
     </div>
 
-    <script src=""></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
