@@ -34,11 +34,13 @@ Just DOM manipulation, event handling, and JavaScript logic — simple and power
 - Event listeners handle user input and state changes (score, question index, etc.).
 - UI transitions between Start, Quiz, and Completion screens.
 
+
+````markdown
 ## 🔧 How to Run
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/js-quiz-master.git
+   git clone https://github.com/crnjihia/JavaScript-Quiz-App.git
 ````
 
 2. Open `index.html` in your browser.
